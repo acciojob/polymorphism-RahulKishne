@@ -9,26 +9,16 @@ public class Main {
     }
 
     public static class Product {
-        int x;
-        int y;
-        int z;
-        double a;
-        double b;
+
         public int product(int x, int y) {
-            this.x=x;
-            this.y=y;
-            return x;
+            return 0;
         }
         public int product(int x,int y,int z){
-            this.x=x;
-            this.y=y;
-            this.z=z;
-            return x;
+
+            return 0;
         }
         public double product(double a,double b){
-             this.a=a;
-             this.b=b;
-            return a;
+            return 0.0;
         }
     }
 }
